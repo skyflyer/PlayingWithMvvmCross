@@ -1,32 +1,18 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhoneRetina4.7.0" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MvvmCrossOne.Touch/AppDelegate.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhoneRetina.7.0" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MvvmCrossOne.Touch/Views/FirstView.cs">
     <Files>
-      <File FileName="MvvmCrossOne.Touch/Setup.cs" Line="8" Column="36" />
-      <File FileName="MvvmCrossOne.Touch/Views/FirstView.cs" Line="25" Column="28" />
-      <File FileName="MvvmCrossOne/ViewModels/FirstViewModel.cs" Line="16" Column="9" />
-      <File FileName="MvvmCrossOne.Touch/Test.cs" Line="26" Column="1" />
-      <File FileName="MvvmCrossOne.Touch/Test.designer.cs" Line="1" Column="1" />
-      <File FileName="MvvmCrossOne.Touch/AppDelegate.cs" Line="29" Column="1" />
+      <File FileName="MvvmCrossOne.Touch/Views/FirstView.cs" Line="53" Column="7" />
+      <File FileName="MvvmCrossOne.Touch/Test.cs" Line="8" Column="40" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
-          <Node name="MvvmCrossOne.Core" expanded="True">
-            <Node name="ToDo-MvvmCross" expanded="True" />
-            <Node name="ViewModels" expanded="True" />
-          </Node>
-          <Node name="MvvmCrossOne.Droid" expanded="True">
-            <Node name="Resources" expanded="True">
-              <Node name="layout" expanded="True" />
-            </Node>
-            <Node name="Views" expanded="True" />
-          </Node>
+          <Node name="MvvmCrossOne.Core" expanded="True" />
           <Node name="MvvmCrossOne.Touch" expanded="True">
-            <Node name="Resources" expanded="True" />
-            <Node name="ToDo-MvvmCross" expanded="True" />
-            <Node name="Views" expanded="True" />
-            <Node name="AppDelegate.cs" selected="True" />
+            <Node name="Views" expanded="True">
+              <Node name="FirstView.cs" selected="True" />
+            </Node>
             <Node name="Test.cs" expanded="True" />
           </Node>
         </State>
@@ -40,5 +26,5 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.MvvmCrossOne.Droid MonoForAntroid.PreferredDevice="3.7in WVGA (Nexus One)" AndroidDeviceId-Debug="0019fde151f66e" />
+  <MonoDevelop.Ide.ItemProperties.MvvmCrossOne.Droid MonoForAntroid.PreferredDevice="3.7in WVGA (Nexus One)" AndroidDeviceId-Debug="015d3220144bfc0a" />
 </Properties>

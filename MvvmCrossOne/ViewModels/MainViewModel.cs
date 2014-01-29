@@ -14,12 +14,18 @@ namespace MvvmCrossOne.ViewModels
 	{
 		public void Init()
 		{
-			var loaderService = Mvx.Resolve<IMvxViewModelLoader> ();
-			MvxViewModelRequest request = new MvxViewModelRequest (typeof(FirstSubViewModel), null, null, null);
-			var viewModel = loaderService.LoadViewModel (request, null /* saved state */);
-			First = (FirstSubViewModel)viewModel;
-			//First = new FirstSubViewModel (this);
+//			var loaderService = Mvx.Resolve<IMvxViewModelLoader> ();
+//			MvxViewModelRequest request = new MvxViewModelRequest (typeof(FirstSubViewModel), null, null, null);
+//			var viewModel = loaderService.LoadViewModel (request, null /* saved state */);
+//			First = (FirstSubViewModel)viewModel;
+			First = new FirstSubViewModel (this);
 			Second = new SecondSubViewModel ();
+		}
+
+		public ICommand GoToFirst {
+			get {
+				return new MvxCommand (() => ShowViewModel<FirstViewModel> ());
+			}
 		}
 
 		string _text = "Mainviewmodel";

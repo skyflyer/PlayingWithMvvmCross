@@ -12,10 +12,16 @@ namespace MvvmCrossOne.ViewModels
 	{
 		MainViewModel _parent;
 
+		public FirstSubViewModel()
+		{
+		}
+
 		public FirstSubViewModel(MainViewModel parent)
 		{
 			this._parent = parent;
 		}
+
+		public MainViewModel Parent { set { _parent = value; } }
 
 		public void Init ()
 		{

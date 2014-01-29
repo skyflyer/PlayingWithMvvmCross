@@ -14,7 +14,7 @@ namespace MvvmCrossOne.Touch
 
 		protected override IMvxApplication CreateApp ()
 		{
-			return new MvvmCrossOne.Core.App ();
+			return new MvvmCrossOne.App ();
 		}
 		
         protected override IMvxTrace CreateDebugTrace()

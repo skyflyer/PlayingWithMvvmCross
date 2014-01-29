@@ -4,6 +4,7 @@ using Cirrious.MvvmCross.Touch.Views;
 using MonoTouch.ObjCRuntime;
 using MonoTouch.UIKit;
 using MonoTouch.Foundation;
+using System;
 
 namespace MvvmCrossOne.Touch.Views
 {
@@ -12,13 +13,21 @@ namespace MvvmCrossOne.Touch.Views
     {
         public override void ViewDidLoad()
         {
-            View = new UIView(){ BackgroundColor = UIColor.White};
+			View = new UIView(){ BackgroundColor = UIColor.Red};
+			var height = View.Bounds.Height;
+			//View.Frame = new RectangleF (View.Bounds.X, View.Bounds.Y, View.Bounds.Width, View.Bounds.Height/2); doesn't work
+			//View.Bounds = new RectangleF (View.Bounds.X, View.Bounds.Y, View.Bounds.Width, View.Bounds.Height/2);
             base.ViewDidLoad();
 
 			// ios7 layout
             if (RespondsToSelector(new Selector("edgesForExtendedLayout")))
                EdgesForExtendedLayout = UIRectEdge.None;
 			   
+			var info = new UILabel (new RectangleF (10, 90, 300, 300));
+			info.LineBreakMode = UILineBreakMode.WordWrap;
+			info.Lines = 0;
+			info.Text = String.Format("Bounds: {0},{1},{2},{3} Frame: {4},{5},{6},{7}", View.Bounds.X, View.Bounds.Y, View.Bounds.Width, View.Bounds.Height, View.Frame.X, View.Frame.Y, View.Frame.Width, View.Frame.Height);
+			Add (info);
             var label = new UILabel(new RectangleF(10, 10, 300, 40));
             Add(label);
             var textField = new UITextField(new RectangleF(10, 50, 300, 40));
@@ -40,6 +49,7 @@ namespace MvvmCrossOne.Touch.Views
             set.Bind(label).To(vm => vm.Hello);
             set.Bind(textField).To(vm => vm.Hello);
             set.Apply();
+
         }
     }
 }

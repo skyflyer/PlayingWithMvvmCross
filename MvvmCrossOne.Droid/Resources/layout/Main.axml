@@ -4,6 +4,12 @@
     android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
+    <Button
+        android:id="@+id/buttonGoToFirst"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go to first"
+        local:MvxBind="Click GoToFirst" />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
