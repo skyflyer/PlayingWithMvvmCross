@@ -17,7 +17,7 @@ using Cirrious.MvvmCross.ViewModels;
 using MvvmCrossOne.Droid;
 
 
-namespace MvvmCrossOne.Core
+namespace MvvmCrossOne.Droid.Views
 {
 	public class FragFragment : MvxFragment
 	{

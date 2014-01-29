@@ -24,7 +24,6 @@
         android:layout_width="match_parent"
         android:layout_height="20dp"
         local:MvxBind="Text Content" />
-<!--
     <fragment
         android:id="@+id/fragtest1"
         android:background="#f00000"
@@ -37,5 +36,4 @@
         android:name="mvvmcrossone.droid.views.FragFragment"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
-        -->
 </LinearLayout>

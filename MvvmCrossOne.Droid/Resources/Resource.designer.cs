@@ -86,6 +86,12 @@ namespace MvvmCrossOne.Droid
 			// aapt resource value: 0x7f050000
 			public const int MvxBindingTagUnique = 2131034112;
 			
+			// aapt resource value: 0x7f050003
+			public const int fragtest1 = 2131034115;
+			
+			// aapt resource value: 0x7f050004
+			public const int fragtest2 = 2131034116;
+			
 			// aapt resource value: 0x7f050001
 			public const int myButton = 2131034113;
 			
