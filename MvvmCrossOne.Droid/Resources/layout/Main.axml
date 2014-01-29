@@ -12,4 +12,14 @@
         android:layout_width="match_parent"
         android:layout_height="20dp"
         local:MvxBind="Text Content" />
+    <fragment
+        android:id="@+id/first"
+        android:name="mvvmcrossone.droid.views.FirstSubFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <fragment
+        android:id="@+id/second"
+        android:name="mvvmcrossone.droid.views.SecondSubFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 </LinearLayout>

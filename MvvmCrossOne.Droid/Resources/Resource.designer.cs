@@ -86,6 +86,9 @@ namespace MvvmCrossOne.Droid
 			// aapt resource value: 0x7f050000
 			public const int MvxBindingTagUnique = 2131034112;
 			
+			// aapt resource value: 0x7f050005
+			public const int first = 2131034117;
+			
 			// aapt resource value: 0x7f050003
 			public const int fragtest1 = 2131034115;
 			
@@ -97,6 +100,9 @@ namespace MvvmCrossOne.Droid
 			
 			// aapt resource value: 0x7f050002
 			public const int myButton2 = 2131034114;
+			
+			// aapt resource value: 0x7f050006
+			public const int second = 2131034118;
 			
 			static Id()
 			{
@@ -115,10 +121,16 @@ namespace MvvmCrossOne.Droid
 			public const int First = 2130903040;
 			
 			// aapt resource value: 0x7f030001
-			public const int Frag = 2130903041;
+			public const int FirstSub = 2130903041;
 			
 			// aapt resource value: 0x7f030002
-			public const int Master = 2130903042;
+			public const int Frag = 2130903042;
+			
+			// aapt resource value: 0x7f030003
+			public const int Main = 2130903043;
+			
+			// aapt resource value: 0x7f030004
+			public const int SecondSub = 2130903044;
 			
 			static Layout()
 			{

@@ -98,6 +98,8 @@
     <Compile Include="Bootstrap\VisibilityPluginBootstrap.cs" />
     <Compile Include="Views\MainView.cs" />
     <Compile Include="Views\FragFragment.cs" />
+    <Compile Include="Views\FirstSubFragment.cs" />
+    <Compile Include="Views\SecondSubFragment.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -110,8 +112,10 @@
     <AndroidResource Include="Resources\drawable\Icon.png" />
     <AndroidResource Include="Resources\values\mvvm.xml" />
     <AndroidResource Include="Resources\layout\Frag.axml" />
-    <AndroidResource Include="Resources\layout\Master.axml" />
     <AndroidResource Include="Resources\layout\First.axml" />
+    <AndroidResource Include="Resources\layout\Main.axml" />
+    <AndroidResource Include="Resources\layout\FirstSub.axml" />
+    <AndroidResource Include="Resources\layout\SecondSub.axml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <ItemGroup>

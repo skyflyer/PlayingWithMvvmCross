@@ -27,8 +27,10 @@ namespace MvvmCrossOne.Touch.Views
 			var button = UIButton.FromType (UIButtonType.System);
 			button.Frame = new RectangleF (10, 90, 300, 40);
 			button.SetTitle ("Do it", UIControlState.Normal);
-			//button.SetTitleColor (UIColor.Blue, UIControlState.Normal);
+
 			button.TouchUpInside += (object sender, System.EventArgs e) => {
+				// navigate to regular UIController implementation
+				// nothing to do with MvmmCross
 				var test = new Test();
 				NavigationController.PushViewController(test, true);
 			};

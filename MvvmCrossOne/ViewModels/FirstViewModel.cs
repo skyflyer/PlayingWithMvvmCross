@@ -4,6 +4,7 @@ using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
 using System;
+using Cirrious.CrossCore.Platform;
 
 namespace MvvmCrossOne.ViewModels
 {
@@ -32,9 +33,9 @@ namespace MvvmCrossOne.ViewModels
 			}
 		}
 
-//		public ICommand GoWest {
-//			get { return new MvxCommand(() => ShowViewModel<MainViewModel>()); }
-//		}
+		public ICommand GoWest {
+			get { return new MvxCommand(() => ShowViewModel<MainViewModel>()); }
+		}
 
 		public  ICommand DoIt { 
 			get { 
@@ -65,48 +66,8 @@ namespace MvvmCrossOne.ViewModels
 		}
 	}
 
-	/*
-	public class MainViewModel : MvxViewModel
-	{
-		public void Init()
-		{
-//			throw new NotImplementedException ();
-		}
 
-		string _text = "Mainviewmodel";
-		public string Text {
-			get { return _text; }
-			set {
-				_text = value;
-				RaisePropertyChanged (() => Text);
-			}
-		}
 
-		SubViewModel _inner;
-		public SubViewModel Inner {
-			get { return _inner; }
-			set {
-				_inner = value;
-				RaisePropertyChanged (() => Inner);
-			}
-		}
-	}
 
-	public class SubViewModel : MvxViewModel
-	{
-		public void Init()
-		{
-//			throw new NotImplementedException ();
-		}
 
-		string _text = "Subviewmodel";
-		public string Text {
-			get { return _text; }
-			set {
-				_text = value;
-				RaisePropertyChanged (() => Text);
-			}
-		}
-	}
-	*/
 }
