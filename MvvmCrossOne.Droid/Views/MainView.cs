@@ -9,13 +9,12 @@ using Android.Views;
 using Android.Widget;
 using Android.Support.V4.App;
 using Cirrious.MvvmCross.Droid.Fragging;
-using MvvmCrossOne.Core;
 using Cirrious.MvvmCross.Droid.Fragging.Fragments;
 using MvvmCrossOne.ViewModels;
 using Cirrious.CrossCore.Platform;
 using Android.App;
 
-namespace MvvmCrossOne.Droid
+namespace MvvmCrossOne.Droid.Views
 {
 	[Activity]
 	public class MainView : MvxFragmentActivity

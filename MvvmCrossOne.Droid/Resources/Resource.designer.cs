@@ -26,8 +26,6 @@ namespace MvvmCrossOne.Droid
 		
 		public static void UpdateIdValues()
 		{
-			global::Cirrious.MvvmCross.Droid.FullFragging.Resource.String.ApplicationName = global::MvvmCrossOne.Droid.Resource.String.ApplicationName;
-			global::Cirrious.MvvmCross.Droid.FullFragging.Resource.String.Hello = global::MvvmCrossOne.Droid.Resource.String.Hello;
 		}
 		
 		public partial class Attribute
@@ -83,29 +81,32 @@ namespace MvvmCrossOne.Droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f050000
-			public const int MvxBindingTagUnique = 2131034112;
+			// aapt resource value: 0x7f040000
+			public const int MvxBindingTagUnique = 2130968576;
 			
-			// aapt resource value: 0x7f050005
-			public const int buttonGoToFirst = 2131034117;
+			// aapt resource value: 0x7f040005
+			public const int buttonGoToFirst = 2130968581;
 			
-			// aapt resource value: 0x7f050006
-			public const int first = 2131034118;
+			// aapt resource value: 0x7f040006
+			public const int first = 2130968582;
 			
-			// aapt resource value: 0x7f050003
-			public const int fragtest1 = 2131034115;
+			// aapt resource value: 0x7f040003
+			public const int fragtest1 = 2130968579;
 			
-			// aapt resource value: 0x7f050004
-			public const int fragtest2 = 2131034116;
+			// aapt resource value: 0x7f040004
+			public const int fragtest2 = 2130968580;
 			
-			// aapt resource value: 0x7f050001
-			public const int myButton = 2131034113;
+			// aapt resource value: 0x7f040001
+			public const int myButton = 2130968577;
 			
-			// aapt resource value: 0x7f050002
-			public const int myButton2 = 2131034114;
+			// aapt resource value: 0x7f040002
+			public const int myButton2 = 2130968578;
 			
-			// aapt resource value: 0x7f050007
-			public const int second = 2131034119;
+			// aapt resource value: 0x7f040007
+			public const int second = 2130968583;
+			
+			// aapt resource value: 0x7f040008
+			public const int textView1 = 2130968584;
 			
 			static Id()
 			{
@@ -135,6 +136,9 @@ namespace MvvmCrossOne.Droid
 			// aapt resource value: 0x7f030004
 			public const int SecondSub = 2130903044;
 			
+			// aapt resource value: 0x7f030005
+			public const int SplashScreen = 2130903045;
+			
 			static Layout()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -148,17 +152,11 @@ namespace MvvmCrossOne.Droid
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f040001
-			public const int ApplicationName = 2130968577;
+			// aapt resource value: 0x7f050001
+			public const int app_name = 2131034113;
 			
-			// aapt resource value: 0x7f040000
-			public const int Hello = 2130968576;
-			
-			// aapt resource value: 0x7f040003
-			public const int app_name = 2130968579;
-			
-			// aapt resource value: 0x7f040002
-			public const int hello = 2130968578;
+			// aapt resource value: 0x7f050000
+			public const int hello = 2131034112;
 			
 			static String()
 			{

@@ -1,19 +1,24 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhoneRetina.7.0" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MvvmCrossOne.Touch/Views/FirstView.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MvvmCrossOne.Droid/Views/SplashView.cs">
     <Files>
-      <File FileName="MvvmCrossOne.Touch/Views/FirstView.cs" Line="53" Column="7" />
-      <File FileName="MvvmCrossOne.Touch/Test.cs" Line="8" Column="40" />
+      <File FileName="MvvmCrossOne.Droid/Views/FirstView.cs" Line="6" Column="35" />
+      <File FileName="MvvmCrossOne.Droid/Views/FragFragment.cs" Line="20" Column="35" />
+      <File FileName="MvvmCrossOne.Droid/Views/MainView.cs" Line="18" Column="35" />
+      <File FileName="MvvmCrossOne.Droid/Views/SecondSubFragment.cs" Line="19" Column="35" />
+      <File FileName="MvvmCrossOne.Droid/Views/SplashView.cs" Line="5" Column="35" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
-          <Node name="MvvmCrossOne.Core" expanded="True" />
-          <Node name="MvvmCrossOne.Touch" expanded="True">
-            <Node name="Views" expanded="True">
-              <Node name="FirstView.cs" selected="True" />
+          <Node name="MvvmCrossOne.Core" expanded="True">
+            <Node name="ViewModels" expanded="True" />
+          </Node>
+          <Node name="MvvmCrossOne.Droid" expanded="True" selected="True">
+            <Node name="Resources" expanded="True">
+              <Node name="layout" expanded="True" />
             </Node>
-            <Node name="Test.cs" expanded="True" />
+            <Node name="Views" expanded="True" />
           </Node>
         </State>
       </Pad>
@@ -23,7 +28,10 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/miha/work/dev/xamarin/MvvmCrossOne/MvvmCrossOne.Droid/Setup.cs" line="51" column="4" />
+      <Breakpoint file="/Users/miha/work/dev/xamarin/MvvmCrossOne/MvvmCrossOne.Droid/Setup.cs" line="38" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.MvvmCrossOne.Droid MonoForAntroid.PreferredDevice="3.7in WVGA (Nexus One)" AndroidDeviceId-Debug="015d3220144bfc0a" />

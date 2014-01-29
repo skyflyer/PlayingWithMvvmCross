@@ -78,9 +78,6 @@
     <Reference Include="Cirrious.MvvmCross.Droid.Fragging">
       <HintPath>..\packages\MvvmCross.HotTuna.Droid.Fragging.3.0.14\lib\MonoAndroid\Cirrious.MvvmCross.Droid.Fragging.dll</HintPath>
     </Reference>
-    <Reference Include="Cirrious.MvvmCross.Droid.FullFragging">
-      <HintPath>..\packages\MvvmCross.HotTuna.Droid.FullFragging.3.0.14\lib\MonoAndroid\Cirrious.MvvmCross.Droid.FullFragging.dll</HintPath>
-    </Reference>
     <Reference Include="Mono.Android.Support.v4" />
     <Reference Include="Cirrious.MvvmCross.Plugins.Visibility">
       <HintPath>..\packages\MvvmCross.HotTuna.Plugin.Visibility.3.0.14\lib\MonoAndroid\Cirrious.MvvmCross.Plugins.Visibility.dll</HintPath>
@@ -100,6 +97,7 @@
     <Compile Include="Views\FragFragment.cs" />
     <Compile Include="Views\FirstSubFragment.cs" />
     <Compile Include="Views\SecondSubFragment.cs" />
+    <Compile Include="Views\SplashView.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -116,6 +114,7 @@
     <AndroidResource Include="Resources\layout\Main.axml" />
     <AndroidResource Include="Resources\layout\FirstSub.axml" />
     <AndroidResource Include="Resources\layout\SecondSub.axml" />
+    <AndroidResource Include="Resources\layout\SplashScreen.axml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <ItemGroup>

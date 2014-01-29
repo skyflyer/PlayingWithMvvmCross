@@ -1,15 +1,18 @@
-﻿using System;
-using Cirrious.MvvmCross.Droid.Views;
-using Android.App;
-using MvvmCrossOne.ViewModels;
+﻿using Android.App;
+using Cirrious.CrossCore.Platform;
 using Cirrious.MvvmCross.Droid.Fragging;
 using MvvmCrossOne.Droid;
 
-namespace MvvmCrossOne.Core
+namespace MvvmCrossOne.Droid.Views
 {
-	[Activity(MainLauncher = true)]
+	[Activity()]
 	public class FirstView : MvxFragmentActivity
 	{
+		public FirstView ()
+		{
+			MvxTrace.Trace (MvxTraceLevel.Diagnostic, "Ctor");
+		}
+
 		protected override void OnCreate (Android.OS.Bundle bundle)
 		{
 			base.OnCreate (bundle);

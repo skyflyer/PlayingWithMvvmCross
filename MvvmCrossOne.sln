@@ -69,6 +69,6 @@ Global
 		{C8C8EB6A-2FBC-4E17-A12C-8747F64CD159}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = MvvmCrossOne.Touch\MvvmCrossOne.Touch.csproj
+		StartupItem = MvvmCrossOne.Droid\MvvmCrossOne.Droid.csproj
 	EndGlobalSection
 EndGlobal

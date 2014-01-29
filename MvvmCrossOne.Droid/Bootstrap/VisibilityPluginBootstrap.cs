@@ -1,6 +1,6 @@
 using Cirrious.CrossCore.Plugins;
 
-namespace MvvmCrossOne.Core
+namespace MvvmCrossOne.Droid
 {
     public class VisibilityPluginBootstrap
         : MvxPluginBootstrapAction<Cirrious.MvvmCross.Plugins.Visibility.PluginLoader>

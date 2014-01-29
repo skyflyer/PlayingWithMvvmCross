@@ -14,7 +14,7 @@ using Android.Support.V4.App;
 using Cirrious.CrossCore.Platform;
 using Cirrious.CrossCore;
 using Cirrious.MvvmCross.ViewModels;
-using MvvmCrossOne.Droid;
+
 
 
 namespace MvvmCrossOne.Droid.Views

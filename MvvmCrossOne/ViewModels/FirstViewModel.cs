@@ -11,6 +11,11 @@ namespace MvvmCrossOne.ViewModels
 	public class FirstViewModel 
 		: MvxViewModel
 	{
+
+		public FirstViewModel() {
+			MvxTrace.Trace (MvxTraceLevel.Diagnostic, "Ctor");
+		}
+
 		private string _hello = "Hello MvvmCross";
 
 		public string Hello { 
