@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <Button
+        android:id="@+id/myButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello"
+        local:MvxBind="Click DoIt" />
+    <Button
+        android:id="@+id/myButton2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Go west"
+        local:MvxBind="Click GoWest" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        local:MvxBind="Text Hello" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        local:MvxBind="Text Content" />
+<!--
+    <fragment
+        android:id="@+id/fragtest1"
+        android:background="#f00000"
+        android:name="mvvmcrossone.droid.views.FragFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <fragment
+        android:id="@+id/fragtest2"
+        android:background="#0000f0"
+        android:name="mvvmcrossone.droid.views.FragFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+        -->
+</LinearLayout>
